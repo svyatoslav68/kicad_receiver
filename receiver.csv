@@ -2,7 +2,7 @@
 "1","AE1","1","Antenna","Connector_Pin:Pin_D1.3mm_L11.3mm_W2.8mm_Flat",""
 "2","C1, C16, C18","3","10mk","Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",""
 "3","C2","1","22mk","Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm",""
-"4","C3","1","C_Variable","",""
+"4","C3","1","20","my_library:Capasitor_Variable",""
 "5","C4","1","C","Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT",""
 "6","C5","1","22","Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT",""
 "7","C6","1","1.5n","Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm",""

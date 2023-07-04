@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/slava/Projects/kicad/receiver/kicad_receiver/receiver.kicad_sch</source>
-    <date>Пн 03 июл 2023 22:02:12</date>
+    <date>Вт 04 июл 2023 21:54:08</date>
     <tool>Eeschema 7.0.5-1.fc38</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -58,7 +58,8 @@
       <tstamps>15cd8307-0e08-46cb-864e-b60d79a9a5a4</tstamps>
     </comp>
     <comp ref="C3">
-      <value>C_Variable</value>
+      <value>20</value>
+      <footprint>my_library:Capasitor_Variable</footprint>
       <libsource lib="Device" part="C_Variable" description="Variable capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="receiver.kicad_sch"/>
