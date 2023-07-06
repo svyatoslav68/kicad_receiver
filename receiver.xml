@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/slava/Projects/kicad/receiver/kicad_receiver/receiver.kicad_sch</source>
-    <date>Вт 04 июл 2023 21:54:08</date>
-    <tool>Eeschema 7.0.5-1.fc38</tool>
+    <source>C:\Users\SP_Voronin\Projects\kicad\receiver\receiver\receiver.kicad_sch</source>
+    <date>29.06.2023 14:29:12</date>
+    <tool>Eeschema 7.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -343,6 +343,17 @@
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>273692e3-8ffe-476c-b983-132cf2630225</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>L</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="receiver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dc9650e-d68c-4bd9-bdac-72ab26633450</tstamps>
     </comp>
     <comp ref="Q1">
       <value>BC549</value>
@@ -711,22 +722,22 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="FM">
-      <uri>/home/slava/Projects/kicad/receiver/kicad_receiver/FM.kicad_sym</uri>
+      <uri>C:\Users\SP_Voronin\Projects\kicad\receiver\receiver/FM.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
-      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -743,6 +754,7 @@
       <node ref="D2" pin="4" pinfunction="+Vp" pintype="power_in"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
@@ -826,6 +838,7 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="D2" pin="5" pinfunction="OSC" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="17" name="Net-(D2-fld)">
       <node ref="D2" pin="9" pinfunction="fld" pintype="output"/>
